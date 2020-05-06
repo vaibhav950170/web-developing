@@ -58,8 +58,3 @@ app.listen(process.env.PORT || 3000, function() {
 
 
 
-//API kEY
-//ebcba4090afd89720bac3849f6dcf4fa-us8
-
-//LIST ID
-//4473ba255f
