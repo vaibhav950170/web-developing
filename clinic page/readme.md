@@ -1,7 +1,8 @@
 A clinic web Page demo
 
-#It is a Pc Web-page, So please open it on a Desktop Mode.
+My first Mobile Responsive Webpage.
 
 For see web-page live click on this link:
 
-#https://secret-depths-13307.herokuapp.com/
+
+https://still-island-39005.herokuapp.com/
