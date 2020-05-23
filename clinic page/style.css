@@ -1,0 +1,244 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+margin:0;
+padding:0;
+}
+.navbar-color{
+	background-color: #45046a;
+}
+.navbar-toggler{
+	background-color: #fff;
+}
+a.navbar-brand{
+	color:#fff!important;
+}
+.container-fluid{
+margin-left: -100px;
+}
+a.nav-link{
+color: #fff!important;
+}
+.head-img{
+	margin-left: 400px;
+	margin-right: 250px;
+	margin-top: -350px;
+	
+}
+.back-img1{
+	background:     linear-gradient(
+     rgba(236, 236, 236, 0.6),
+      rgba(236, 236, 236, 0.6)
+    ),
+    url("https://www.drbatras.com//sites/default/files/images/DRB_homepage_clinic_594by349.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.back-img2{
+	background:     linear-gradient(
+     rgba(236, 236, 236, 0.6),
+      rgba(236, 236, 236, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.back-img3{
+	background:     linear-gradient(
+     rgba(236, 236, 236, 0.6),
+      rgba(236, 236, 236, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.heading-title{
+	text-align: center;
+	padding-top: 220px;
+}
+.w-100{
+	width:100%;
+	height: 600px;
+	text-align: center;
+}
+.jumbotron{
+	width:100%;
+	height: 500px;
+	background-color:#45046a;
+}
+.specs{padding: 20% 27%;
+}
+.row{
+	margin-top:100px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.gallery-img1{
+	width: 100%;
+}
+.gallery-img2{
+	width: 84.5%;
+}
+.gallery-img3{
+	margin-left: -60px;
+	width:85%;
+	height: 63%;
+}
+.gell{
+	text-align: center;
+	margin-top: 50px;
+	padding:20px 0;
+}
+
+
+.service-img1{
+	width: 100%;
+
+}
+.service-img2{
+	width: 100%
+}
+.service-img3{
+	width:100%;
+}
+#contact{
+	background-color: #45046a;
+	color: #FFF;
+}
+.navi-body{
+	color: #f0f0f0;
+	margin-top: 25px;
+}
+.navigate-part{
+	margin-bottom: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.navi{
+	font-family: 'Roboto Slab', serif;
+}
+.contact-head{
+	font-family: 'Work Sans', sans-serif;
+}
+.contact-part{
+	font-family: 'Noto Serif', serif;
+}
+.contact-item{
+	margin-bottom: 0px;
+}
+i{
+	padding:5px;
+}
+.navigate-left{
+	padding-left: 100px;
+}
+.navigat-top{
+	margin-top: -100px;
+}
+
+.footer{
+	text-align: center;
+	font-size: 16px;
+}
+.head{
+	margin-top: -350px;
+}
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 600px;
+  background-color: #45046a;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+@media screen and (max-width:1050px ){
+	.gallery-img1{
+		padding:5px;
+		padding-bottom: 50px;
+	}
+	.gallery-img3{
+		margin-left: 0;
+		width: 99%;
+		height: 62.5%
+	}
+	.gallery-img2{
+		width: 99%;
+	}	
+	.Subscribe{
+		padding-left: 170px;
+	}
+	.navigate-768{
+		padding-left: 70px;
+	}
+	.footer{
+		padding-left: 200px;
+	}
+}
+@media screen and (max-width: 600px){
+	.gallery-img2{
+		padding-bottom: 50px;
+	}
+	.Subscribe{
+		padding-left: 20px;
+		padding-right: 0;
+		margin-left:70px;
+		margin-right:-70px;
+	}
+	.input-box{
+		    height: 32px!important;
+    padding:0!important;
+	}
+	.col-xs-6{
+		padding:0;
+		margin:0;
+		width:auto; 
+	}
+	.navigate-768{
+		margin-right: -200px;
+		padding-left:150px;
+	}
+}
