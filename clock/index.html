@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+	<h1>Analog clock</h1>
+	<div class="clock">
+		<div class="hour">
+			<div class="hr" id="hr"></div>
+		</div>
+		<div class="min">
+			<div class="mn" id="mn"></div>
+		</div>
+		<div class="sec">
+			<div class="sc" id="sc"></div>
+		</div>
+	</div>
+	
+	
+	<div class="" onclick="toggleClass()">
+		<a href="#"></a>
+	</div>
+<script type="text/javascript">
+function toggleClass(){
+	const body = document.querySelector('body');
+body.classList.toggle('light');
+}
+
+	const deg = 6;
+	const hr = document.querySelector('#hr');
+	const mn = document.querySelector('#mn');
+	const sc = document.querySelector('#sc');
+
+	setInterval(() =>{
+		let day = new Date();
+	let hh =day.getHours() *30;
+	let mm =day.getMinutes() *deg;
+	let ss =day.getSeconds() *deg;
+
+	hr.style.transform =` rotateZ(${(hh)+(mm/12)}deg)`;
+	mn.style.transform= `rotateZ(${mm}deg)`;
+	sc.style.transform = `rotateZ(${ss}deg)`; 
+	})
+
+	const buttons = document.querySelectorAll('a');
+	buttons.forEach(btn => {
+		btn.addEventListener('click',function(e){
+			let x = e.clientX - e.target.offsetLeft;
+			let y =e.clientY - e.target.offsetTop;
+
+			let ripples = document.createElement('span');
+			ripples.style.left=x+'px';
+			ripples.style.top=y+'px';
+			this.appendChild(ripples);
+
+			setTimeout(() => {
+				ripples.remove()
+			},1000);
+		})
+	})
+</script>
+</body>
+</html>
